@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Converter</title>
+    <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+    <div class="bo">
+        <div class="head"><h1>TEMPERATURE CONVERTER</h1></div>
+        <div class="box">
+            <div class="section1"> 
+                <h3>Degree</h3>
+                <h3>Type</h3>
+            </div>
+            <div class="section2"> 
+                <input type="text"  id="rr" placeholder="    Add Input" style="font-size:1rem;background-color: rgba(224, 212, 193, 0.454);height:35px;width:130px;border:none;border-radius: 10px;" />
+                <select  class="typess" id="rr2">
+                    <option value="f">Fahrenheit</option>
+                    <option value="c">Celcius</option>
+                    
+                </select>
+            </div>
+            <div class="section2"> 
+                <h2 id="validation" style="font-size:16px;color:rgb(163, 27, 27)"></h2>
+
+             </div>
+            <div class="section3"> 
+                <input type="text" id="result" style="font-weight:300;font-size:1rem;background-color: rgba(224, 212, 193, 0.454);height:35px;width:80%;border:none;border-radius: 10px;margin: 50px;padding-left: 20px;" readonly />
+               <button onclick="a()"     style="margin-bottom: 10px;height:30px;width:100px;background-color:rgba(224, 212, 193, 0.454) ;border: none;border-radius:10px;" >RESULT</button>
+            </div>
+           
+           
+
+
+        </div>
+    </div>
+    
+    <script src="./script.js"></script>
+</body>
+</html>

@@ -1,0 +1,53 @@
+body{
+    padding:0px;
+    margin:0px;
+    padding-top: 100px;
+    background-image: url(./luke-miller-atxldtmQVdI-unsplash\ \(1\).jpg);
+
+}
+.bo{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    color:rgb(70, 40, 1)
+}
+.box{
+    height: 450px;
+    width:500px;
+    border:1.5px black solid;
+    border-radius: 20px;
+    
+
+}
+.section1{
+    display: flex;
+    padding-top: 50px;
+    justify-content: space-evenly;
+}
+.section2{
+    display: flex;
+ 
+    justify-content: space-evenly;
+}
+.typess{
+    background-color: rgba(224, 212, 193, 0.454);
+    border-radius: 10px;
+    border:none;
+    width:150px;
+    color:black;
+}
+.section3{
+    height: 200px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.section3 button{
+    margin-bottom: 50px;
+}
